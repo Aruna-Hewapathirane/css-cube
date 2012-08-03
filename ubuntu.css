@@ -1,0 +1,68 @@
+#linux{
+	color:white;
+	font-family:ubuntu;
+	-moz-transition:1s ease all;
+	text-align:center;
+	opacity:0;
+	width:100%;
+	background:-moz-linear-gradient(left, #77216F,#5E2750,#2C001E,#DD4814);
+	height:50px;
+	line-height:50px;
+}
+
+#linux:hover{opacity:1;}
+
+#top {
+    background: url("basetop.png") repeat scroll 0 0 transparent;    
+    height: 81px;    
+    margin: 0 auto;
+    position: relative;
+    top: 166px;
+    width: 275px;
+    z-index: -2;
+}
+
+#logo {
+    -moz-transition:1s ease all;
+    background: url("logotop.png") repeat scroll 0 0 transparent;
+    height: 146px;
+    margin: 0 auto;
+    position: relative;
+    top: 90px;
+    width: 144px;
+    z-index: -1;
+}
+
+#logo:hover{
+	-moz-transform:rotate(360deg);
+}
+
+#bottom {
+	
+    background: url("basebot.png") repeat scroll 0 0 transparent;
+    height: 263px;
+    margin: 0 auto;
+    position: relative;
+    top: 124px;
+    width: 299px;
+}
+
+
+#bottom:hover #logo{
+	top:-120px;
+	z-index:0; /* make logo hoverable by bringing it forward :-)*/
+}
+
+#why{
+	color:white;
+	font-family:ubuntu;
+	height:50px;
+	-moz-transition:1s ease all;
+	background:-moz-linear-gradient(left, #DD4814,#77216F,#5E2750,#2C001E);
+	text-align:center;
+	bottom:0px; /* make it stick to bottom of browser */
+	opacity:0;
+	line-height:50px;
+	position:absolute;
+	width:100%;
+}

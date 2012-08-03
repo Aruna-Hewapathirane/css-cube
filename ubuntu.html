@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> <!--enable internationalization-->
+	<link rel="stylesheet" href="ubuntu.css">
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<div id="wrap">	
+	<div id="linux">Ubuntu Linux EXPERIENCE it!</div>
+	<div id="top"></div>
+	<div id="bottom" onmouseover="magic()" onmouseleave="fade()"><div id="logo" onmouseover="drums()"></div></div>
+	<div id="why">Proven. Practical. Precise</div>
+</div> 
+
+<!-- audio files used -->
+<audio id="one">
+<source src="magic-wand-1.wav"></source>
+Your browser does not support html5 audio.
+</audio>
+<audio id="two">
+<source src="desktop-login.ogg"></source>
+Your browser does not support html5 audio.
+</audio>
+<audio id="three">
+<source src="c-note.ogg"></source>
+Your browser does not support html5 audio.
+</audio>
+<audio loop id="four" >
+<source src="service-login.ogg" > </source>
+Your browser does not support html5 audio.
+</audio>
+
+
+
+
+<script type="text/javascript">
+
+function magic(){
+	var audio = document.getElementById("one");	
+	audio.play();
+	};
+
+function drums(){
+	var audio = document.getElementById("two");
+	audio.play();
+	var ubuntu = document.getElementById("linux"); /* Fade in upper info bar..*/
+	ubuntu.style.opacity="1";
+	var ubuntu = document.getElementById("why");   /* Fade in footer info bar..*/
+	ubuntu.style.opacity="1";
+	};
+
+function fade(){
+	var ubuntu = document.getElementById("linux");
+	ubuntu.style.opacity="0";
+	var ubuntu = document.getElementById("why");
+	ubuntu.style.opacity="0";
+	}
+
+
+function hindi(){
+	console.log("inside mod")
+	var audio = document.getElementById("three");
+    console.log("shud hear moo-sick")
+	audio.play();
+	};
+function heartbeat(){
+	var audio = document.getElementById("four");
+//alert("playing")
+	audio.play();
+	};
+function stopbeat(){
+	var audio = document.getElementById("four");
+//alert("playing")
+	audio.pause();
+	};
+/*
+
+// or with an ID
+
+var audio = document.getElementById("mySoundClip");
+audio.play();
+
+var audio = $("#mySoundClip")[0];
+audio.play();
+
+var audio = $("#mySoundClip")[0];
+$("bottom").mouseenter(function() {
+audio.play();
+});
+
+*/
+</script>
+
+<!-- Javascript Fade Effects - Posted by Roger Keays, 28 August 2007, 2:05 PM
+<script type="text/javascript">
+      var element = document.getElementById('frog');
+      var duration = 5000;  /* 1000 millisecond fade = 1 sec */
+      var steps = 20;       /* number of opacity intervals   */
+      var delay = 5000;     /* 5 sec delay before fading out */
+      var delay2 = delay+Math.floor(Math.random()*10*1000+10000)
+
+      /* set the opacity of the element (between 0.0 and 1.0) */
+      function setOpacity(level) {
+        element.style.opacity = level;
+        element.style.MozOpacity = level;
+        element.style.KhtmlOpacity = level;
+        element.style.filter = "alpha(opacity=" + (level * 100) + ");";
+      }
+
+      function fadeIn(){
+        for (i = 0; i <= 1; i += (1 / steps)) {
+          setTimeout("setOpacity(" + i + ")", i * duration);
+        }
+        setTimeout("fadeOut()", delay);
+      }
+
+      function fadeOut() {
+        for (i = 0; i <= 1; i += (1 / steps)) {
+          setTimeout("setOpacity(" + (1 - i) + ")", i * duration);
+        }
+        console.log(delay2);
+        setTimeout("fadeIn()", delay2);
+      }
+
+      /* start the effect */
+      fadeIn();
+    </script>-->
+</body>
+</html>
