@@ -27,4 +27,6 @@ I am very much humbled by you... this is FOR:
 
 1 - Firefox only right now, need to work on Chrome Safari Opera and IE(yuck!)
 2 - Audio lag needs new audio object so multiple instances can play immediately...
-3 - Released under GPL with just one request, do as you wish with the code but please SHARE it !
+3 - Webkit does not support mouseleave so now what ?? Any work arounds ? 
+4 - Z-index:0 for #logo works fine in firfox but breaks in chrome (why ?) - z-index:-4 fixes chrome
+5 - Released under GPL with just one request, do as you wish with the code but please SHARE it !
