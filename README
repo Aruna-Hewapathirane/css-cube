@@ -15,6 +15,7 @@ I am very much humbled by you... this is FOR:
   Lea Verou
   Chris Coyier
   Simurai
+  
   and many many others who I will start listing when time permits me to do so...
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -22,3 +23,8 @@ I am very much humbled by you... this is FOR:
   3rd August 2012, Friday
 ------------------------------------------------------------------------------------------------------------------------
     
+#TODO:
+
+1 - Firefox only right now, need to work on Chrome Safari Opera and IE(yuck!)
+2 - Audio lag needs new audio object so multiple instances can play immediately...
+3 - Released under GPL with just one request, do as you wish with the code but please SHARE it !
