@@ -93,39 +93,5 @@ audio.play();
 */
 </script>
 
-<!-- Javascript Fade Effects - Posted by Roger Keays, 28 August 2007, 2:05 PM
-<script type="text/javascript">
-      var element = document.getElementById('frog');
-      var duration = 5000;  /* 1000 millisecond fade = 1 sec */
-      var steps = 20;       /* number of opacity intervals   */
-      var delay = 5000;     /* 5 sec delay before fading out */
-      var delay2 = delay+Math.floor(Math.random()*10*1000+10000)
-
-      /* set the opacity of the element (between 0.0 and 1.0) */
-      function setOpacity(level) {
-        element.style.opacity = level;
-        element.style.MozOpacity = level;
-        element.style.KhtmlOpacity = level;
-        element.style.filter = "alpha(opacity=" + (level * 100) + ");";
-      }
-
-      function fadeIn(){
-        for (i = 0; i <= 1; i += (1 / steps)) {
-          setTimeout("setOpacity(" + i + ")", i * duration);
-        }
-        setTimeout("fadeOut()", delay);
-      }
-
-      function fadeOut() {
-        for (i = 0; i <= 1; i += (1 / steps)) {
-          setTimeout("setOpacity(" + (1 - i) + ")", i * duration);
-        }
-        console.log(delay2);
-        setTimeout("fadeIn()", delay2);
-      }
-
-      /* start the effect */
-      fadeIn();
-    </script>-->
 </body>
 </html>
