@@ -1,44 +1,21 @@
-/**
-* A CSS+Javascript demo/teaser to encourage people to explore the freedom Ubuntu Linux offers 
+ CSS+Javascript Demo/Teaser To Encourage People To
+ Explore The FREEDOM Ubuntu Linux Offers.. 
 
-* Copyright (C) 2012 Aruna Hewapathirane <aruna.hewapathirane@gmail.com>
+ Copyright (C) 3rd August 2012,
+ Author: Aruna Hewapathirane <aruna.hewapathirane@gmail.com>
+ Inspired By : Lea Verou, Chris Coyier, Simurai
 
-* This program is free software: you can redistribute it and/or modify it 
-* under the terms of the GNU General Public License version 3, as published 
-* by the Free Software Foundation.
+ This program is free software: you can redistribute it and/or modify it 
+ under the terms of the GNU General Public License version 3, as published 
+ by the Free Software Foundation.
  
-* This program is distributed in the hope that it will be useful, but 
-* WITHOUT ANY WARRANTY; without even the implied warranties of 
-* SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR 
-* PURPOSE.  See the GNU General Public License for more details.
+ This program is distributed in the hope that it will be useful, but 
+ WITHOUT ANY WARRANTY; without even the implied warranties of 
+ SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR 
+ PURPOSE.  See the GNU General Public License for more details.
  
-* You should have received a copy of the GNU General Public License along 
-* with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-* Last update: 2012-4-29
-*/
-
-Have questions ? 
-
-  Email me: aruna.hewapathirane@gmail.com
-  Skype me: aruna.hewapathirane
-
-I would like to dedicate this to the people who were a constant source of inspiration and 
-guidance for me in my journey to learn CSS. So guys this is my way of humbly saying thank 
-you for all the time and effort you put in to creating beautiful code and share it freely. 
-
-I am very much humbled by you... this is FOR:
-
-  Lea Verou
-  Chris Coyier
-  Simurai
-  
-  and many many others who I will start listing when time permits me to do so...
-
-------------------------------------------------------------------------------------------------------------------------
-  Aruna Hewapathirane - Toronto - Ontario - Canada
-  3rd August 2012, Friday
-------------------------------------------------------------------------------------------------------------------------
+ You should have received a copy of the GNU General Public License along 
+ with this program.  If not, see <http://www.gnu.org/licenses/>.
     
 #TODO:
 
@@ -46,4 +23,4 @@ I am very much humbled by you... this is FOR:
 2 - Audio lag needs new audio object so multiple instances can play immediately...
 3 - Webkit does not support mouseleave so now what ?? Any work arounds ? 
 4 - Z-index:0 for #logo works fine in firfox but breaks in chrome (why ?) - z-index:-4 fixes chrome
-5 - Released under GPL with just one request, do as you wish with the code but please SHARE it !
+
