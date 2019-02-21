@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> <!--enable internationalization-->
+	<link rel="stylesheet" href="ubuntu.css">
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
+	
+	<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1293710-2']);
+  _gaq.push(['_setDomainName', 'sahanaya.net']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body>
+
+<div id="wrap">	
+	<div id="linux">Ubuntu Linux EXPERIENCE it!</div>
+	<div id="top"></div>
+	<div id="bottom" onmouseover="magic()" onmouseout="fade()"><div id="logo" onmouseover="drums()"></div></div>
+	<div id="why">Proven. Practical. Precise</div>
+</div> 
+
+<!-- audio files used -->
+<audio id="one">
+<source src="magic-wand-1.wav"></source>
+Your browser does not support html5 audio.
+</audio>
+<audio id="two">
+<source src="desktop-login.ogg"></source>
+Your browser does not support html5 audio.
+</audio>
+<audio id="three">
+<source src="c-note.ogg"></source>
+Your browser does not support html5 audio.
+</audio>
+<audio loop id="four" >
+<source src="service-login.ogg" > </source>
+Your browser does not support html5 audio.
+</audio>
+
+
+
+
+<script type="text/javascript">
+function magic(){
+	var audio = document.getElementById("one");	
+	audio.play();
+	};
+function drums(){
+	var audio = document.getElementById("two");
+	audio.play();
+	var ubuntu = document.getElementById("linux"); /* Fade in upper info bar..*/
+	ubuntu.style.opacity="1";
+	var ubuntu = document.getElementById("why");   /* Fade in footer info bar..*/
+	ubuntu.style.opacity="1";
+	};
+function fade(){
+	var ubuntu = document.getElementById("linux");
+	ubuntu.style.opacity="0";
+	var ubuntu = document.getElementById("why");
+	ubuntu.style.opacity="0";
+	}
+function hindi(){
+	console.log("inside mod")
+	var audio = document.getElementById("three");
+    console.log("shud hear moo-sick")
+	audio.play();
+	};
+function heartbeat(){
+	var audio = document.getElementById("four");
+//alert("playing")
+	audio.play();
+	};
+function stopbeat(){
+	var audio = document.getElementById("four");
+//alert("playing")
+	audio.pause();
+	};
+/*
+// or with an ID
+var audio = document.getElementById("mySoundClip");
+audio.play();
+var audio = $("#mySoundClip")[0];
+audio.play();
+var audio = $("#mySoundClip")[0];
+$("bottom").mouseenter(function() {
+audio.play();
+});
+*/
+</script>
+
+</body>
+</html>
